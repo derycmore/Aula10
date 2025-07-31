@@ -9,10 +9,53 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-    <title>Login</title>
+    <title>Cadastre TDAH</title>
   </head>
-  <body>
-    
+  <body class="bg-warning">
+    <div class="container p-5 d-flex justify-content-center align-items-center">
+          <form class="card justify-content-center col-lg-5 bg-light p-3">
+            <h2 class="fw-bold justify-content-center align-items-center d-flex text-center ">Criando uma nova conta</h2>
+            <label>Nome</label>
+            <div class="card">
+              <input class="text"></input>
+            </div>
+            <label>Telefone</label>
+            <div class="card">
+              <input class="text"></input>
+            </div>
+            <label>Email</label>
+            <div class="card ">
+              <input class="text"></input>
+            </div>
+            <label>CPF</label>
+            <div class="card ">
+              <input class="text"></input>
+            </div>
+            <label>Endereço</label>
+            <div class="card">
+              <input class="text"></input>
+            </div>
+            <label>CEP</label>
+            <div class="card bg-light">
+              <input class="text"></input>
+            </div>  
+            <select class="form-select m-3 d-flex w-50 text-danger">
+              <option selected>Selecione seu Sexo</option>
+              <option value="1">Masculino</option>
+              <option value="2">Feminino</option>
+              <option value="3">Helicoptero de combate</option>
+            </select> 
+            <div class="form-check">
+              <input class="form-check-input ms-1" type="checkbox" value="" id="checkIndeterminate">
+                <label class="form-check-label text-danger" for="checkIndeterminate">
+                Inscrever na Newsletter
+                </label>
+            </div>
+            <div class="d-grid gap-2 col-2 mx-auto m-3 d-flex">
+              <button type="button" class="btn btn-primary d-flex ">Registrar</button>
+            </div>
+          </form>
+        </div>
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
